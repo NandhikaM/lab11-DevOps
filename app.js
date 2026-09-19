@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 app.get('/status', (req, res) => {
     res.status(200).json({
         status: 'OK',
-        message: 'Node.js API is running',
+        message: 'Node.js API is running - v2',
         timestamp: new Date().toISOString()
     });
 });
